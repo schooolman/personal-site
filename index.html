@@ -1,8 +1,6 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: base
+external_url: href="www.jakeschoolmeesters.com"
 ---
 
 <div class="main">
@@ -28,9 +26,10 @@ layout: base
     </svg>
   <!-- </div> -->
   </div>
-  <a href="/design">
+  <!-- <a href="/design"> -->
+  <a {{ site.external_url }} target="_blank">
     <div class="section-right">
-      <h2>Art Direction and Design work</h2>
+      <h2>Art Direction and Design</h2>
       <div class="icon-container">
         {% include design.svg %}
       </div>

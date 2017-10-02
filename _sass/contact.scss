@@ -1,0 +1,42 @@
+.logo-large {
+  width: 10%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+
+.content {
+  margin-left: 25px;
+}
+
+.main-contact {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  p { width: 90%; }
+  input {
+    color: $gray;
+    font-family: $fontTwo;
+    margin-top: 10px;
+  }
+  .text-area {
+    width: 100%;
+    height: 100px;
+  }
+  width: 55%;
+  // margin: 20px auto;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+input:focus { box-shadow: 0; }

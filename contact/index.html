@@ -1,1 +1,22 @@
-<h1>This needs to be a contact form</h1>
+---
+layout: base
+---
+
+<div class="main-contact">
+  <div class="logo-large">
+    {% include logo.svg %}
+  </div>
+
+  <div class="contact">
+    <div class="content">
+      <p>Thanks for stopping by, feel free to send me a message using the form below. Or reach out through any of the typical social channels as well.</p>
+
+      <form class="contact" action="index.html" method="post">
+        <input type="text" name="from" value="Who are you?">
+        <input type="text" name="email" value="drop your email here">
+        <input class="text-area" type="textarea" name="message" value="Write a message for me here!">
+        <input type="submit" name="submit" value="submit">
+      </form>
+    </div>
+  </div>
+</div>
