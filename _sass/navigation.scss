@@ -1,0 +1,10 @@
+.navigation {
+  // width: 50%;
+  border-bottom: 1px solid #e3e3e3;
+  // position: fixed;
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+}

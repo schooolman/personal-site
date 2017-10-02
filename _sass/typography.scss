@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Cantarell:400,400i,700|Fjalla+One');
+
+$fontOne: 'Fjalla One', sans serif;
+$fontTwo: 'Cantarell', sans serif;
+
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $fontOne;
+}
+
+h1 {
+  font-size: 2em;
+  letter-spacing: 0.1em;
+}
+
+p {
+  font-family: $fontTwo;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: color 100ms ease;
+  &:hover {
+    color: #f78d28;
+    text-decoration: underline;
+  }
+}
+
+ul {
+  font-family: $fontTwo;
+  font-size: 18px;
+}

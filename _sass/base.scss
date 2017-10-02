@@ -1,0 +1,64 @@
+
+// variables
+$blue: #4EC9F5;
+$red: #EF392E;
+
+
+
+// homepage styling
+header {
+  height: 100px;
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    line-height: 100px;
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  .icon-container { width: 100%; }
+  .section {
+    &-left {
+      text-align: center;
+      cursor: pointer;
+      width: 290px;
+      h2 { transition: color 200ms ease; }
+      svg { transition: fill 200ms ease; }
+      &:hover {
+        h2 { color:$blue; }
+        svg { fill: $blue; }
+      }
+    }
+    &-middle {
+      text-align: center;
+      svg {
+        width: 50%;
+      }
+    }
+    &-right {
+      text-align: center;
+      cursor: pointer;
+      width: 290px;
+      h2 { transition: color 200ms ease; }
+      svg { transition: fill 200ms ease; }
+      &:hover {
+        h2 { color: $red; }
+        svg { fill: $red; }
+      }
+    }
+  }
+}
+
+// .section-left:hover { display: none; }
+h2:hover
+.logo {
+  &-large {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+
+  }
+}
